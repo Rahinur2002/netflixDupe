@@ -1,0 +1,22 @@
+.middleText {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: white;
+}
+.middleText h1,
+.middleText h3,
+.middleText h4 {
+  margin: 0;         
+  padding: 0;        
+}
+
+.middleText h1 {
+  margin-bottom: 6px;
+}
+.middleText h3 {
+  margin-bottom: 8px;
+}
