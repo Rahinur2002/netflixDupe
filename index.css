@@ -1,17 +1,17 @@
 .middleText {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  color: white;
 }
 .middleText h1,
 .middleText h3,
 .middleText h4 {
-  margin: 0;         
-  padding: 0;        
+  margin: 0;
+  padding: 0;
 }
 
 .middleText h1 {
