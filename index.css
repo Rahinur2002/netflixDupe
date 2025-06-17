@@ -5,9 +5,9 @@
   align-items: center;
   margin: 0;
   color: white;
-   font-size: 1.3rem;
-   min-height: 50vh;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.3rem;
+  min-height: 50vh;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
 .middleText h1,
@@ -29,7 +29,7 @@
   justify-content: center;
 }
 
-.email{
+.email {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,17 +37,45 @@
 }
 
 .getStartedButton {
-  background-color: #e50914;      /* Netflix red */
-  color: #fff;                    /* White text */
-  font-size: 1.5rem;              /* Large text */
-  font-weight: bold;              /* Bold text */
-  padding: 18px 36px;             /* Big box */
-  border: none;                   /* No border */
-  border-radius: 4px;             /* Slightly rounded corners */
-  cursor: pointer;                /* Pointer on hover */
-  box-shadow: 0 1px 0 rgba(0,0,0,0.45); 
+  background-color: #e50914;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 18px 36px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
 }
 
 .getStartedButton:hover {
-  background-color: #f40612;      
+  background-color: #f40612;
+}
+
+.popcorntext {
+  color: white;
+  border: black;
+  background: #032f70;
+  border: 2px solid #000000;
+  color: #f8f8f8;
+  padding: 10px 20px;
+  border-radius: 30px;
+  display: inline-block;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.popcorn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-left: -400px;
+}
+
+.popcornimg {
+  width: 150px;
+  height: auto;
+  margin-right: 12px;
 }
