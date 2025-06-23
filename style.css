@@ -13,7 +13,7 @@ html {
   top: 1px;
   z-index: 2;
  }
-button {
+.sign-btn {
     text-align: center;
     background-color: red;
     color: white;
@@ -33,7 +33,7 @@ button {
      background:  linear-gradient(to bottom, rgba(0, 0, 0, 0.6),rgba(0,0,0,0.8));
      height: 100%;
 }
-.straw {
+.title {
     z-index: 10;
     position: relative;
    bottom: 0;
